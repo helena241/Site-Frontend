@@ -1,0 +1,442 @@
+body {
+            margin:0;
+            padding: 3;
+            background-color: #98c5f8ea;
+        }
+#cabecalho {
+    text-align: center;
+}
+
+   
+.ass {
+     filter: brightness(0) invert(1); 
+    text-align: center;
+}
+body{
+    margin: 0;
+    background-color: rgb(125, 195, 245)
+
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.menu{
+    display: flex;
+    gap: 200px; 
+    list-style: none;
+    padding: 0;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+     
+ 
+  border-bottom: 2px solid rgba(208, 241, 247, 0.829); 
+}
+
+
+.menu2{
+    display: flex;
+    gap: 200px; 
+    list-style: none;
+    padding: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(0, 13, 53);
+    font-size: 20px;
+    font-style: italic;
+}
+
+.menu2 a{
+    text-decoration: none;
+    color: rgb(0, 134, 211);
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+   border-radius: 2%;
+}
+
+.banner-slide {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+}
+
+.banner-slide.active {
+    display: block;
+    opacity: 1;
+}
+
+.banner-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.noticias {
+  font-size: 46px;            
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  color: #ffffff;             
+  letter-spacing: 2px;       
+  margin: 40px auto;          
+  text-align: center;         
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+
+.ini {
+   font-size: 18px;
+    font-style: century;
+    width: 80%; 
+    max-width: 1000px;
+    min-height: 100px; 
+    background-color: rgb(2, 97, 160);
+    border-radius: 3px; 
+    margin: 50px auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+
+.timeline {
+  display: flex;
+  flex-direction: column; 
+  gap: 40px; 
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+.hist {
+  font-size: 18px;
+  font-family: "Century", sans-serif;
+  width: 45%; 
+  background-color: rgb(218, 232, 252);
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 7px;
+}
+
+.left-card {
+  align-self: flex-start;
+}
+
+.right-card {
+  align-self: flex-end;
+}
+
+.parts {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.hist img {
+  width: 100px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+
+.content-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.hist h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+
+.hist p {
+  margin: 0;
+  line-height: 1.4;
+}
+
+
+.fotona {
+     background-image: url('principal.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh;
+}
+
+.noticia {
+  display: flex;
+  flex-direction: row; 
+  gap: 40px; 
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.not {
+  font-size: 18px;
+  font-family: Impact, Haettenschweiler;
+  color: #020814;
+  width: 45%; 
+   background-image: url('jornal.jpg'); 
+  padding: 25px;
+  box-sizing: border-box;
+ 
+}
+
+.not a{
+    text-decoration: none;
+    color: rgb(1, 16, 29);
+    font-size: 20px;
+    font-style: italic;
+}
+
+
+.not:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.not img {
+  width: 100%;
+  height: 220px; 
+  object-fit: cover; 
+}
+
+
+.cont {
+  display: flex;
+  flex-direction: row; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 40px; 
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto; 
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.disco {
+  font-family: "Century", sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  width: calc(33.333% - 27px); 
+  background-color: rgb(207, 224, 248);
+  padding: 25px;
+  box-sizing: border-box;     
+  position: relative;
+  overflow: hidden;
+  border-radius: 1%;
+  list-style: none;
+  
+}
+
+.disco a {
+  text-decoration: none;
+  color: rgb(1, 35, 63);
+  font-size: 20px;
+  font-style: italic;
+}
+
+.disco:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.disco img {
+  width: 100%;
+  height: 220px; 
+  object-fit: cover; 
+}
+
+
+
+.voltar {
+  position: fixed; 
+  top: 20px;       
+  left: 20px;      
+  background-color: #3586f0;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-style: italic;
+}
+
+
+
+
+.foto {
+  display: block;
+  margin: 40px auto 20px auto; 
+  
+  width: 250px;           
+  height: 250px;          
+  border-radius: 4%;      
+  object-fit: cover;      
+  border: 4px solid #001742; 
+  padding: 3px;     
+}
+
+
+.titulo {
+  font-size: 25px;
+  font-style: italic;
+  width: 45%; 
+  background-color: rgba(11, 114, 184, 0.89);;
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 20px auto;
+  text-align: center;
+}
+.info{
+   font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  width: 45%; 
+  background-color: rgba(123, 183, 223, 0.959);
+  padding: 65px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 20px auto;
+  text-align: justify;
+}
+.musicas {
+  font-size: 25px;
+  font-style: italic;
+  width: 45%; 
+  background-color: rgba(11, 114, 184, 0.89);
+  padding: 25px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 20px auto;
+  text-align: center;
+}
+.musiclist{
+   font-size: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 45%; 
+  background-color: rgba(123, 183, 223, 0.959);;
+  padding: 55px;
+  box-sizing: border-box;
+  border-radius: 7px;
+  margin: 20px auto;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.musiclist ol {
+  display: inline-block;   
+  text-align: left;        
+  padding-left: 20px;    }   
+
+.thevoice {
+  background-image: url('certo.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  min-height: 100vh
+}
+
+
+.galeria-container {
+  width: 80%;
+  max-width: 900px;
+  margin: 50px auto; 
+  font-family: 'Century', sans-serif;
+}
+
+
+.title{
+  font-size: 30px;
+  color: #111111; 
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+
+
+.galeria-style {
+  width: 95%;               
+  max-width: 1400px;         
+  margin: 60px auto;
+}
+
+
+.galeria-assimetrica {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  grid-auto-rows: 220px;                 
+  gap: 12px;                             
+}
+
+
+.galeria-item {
+  overflow: hidden;
+  position: relative;
+}
+
+.galeria-item img {
+  width: 100%;
+  height: 100%;                          
+  object-fit: cover;                     
+  border-radius: 0px;                    
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+
+
+
+.galeria-item.foto-grande {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+.galeria-item.foto-vertical {
+  grid-row: span 2;
+}
+
+
+.galeria-item.foto-horizontal {
+  grid-column: span 2;
+}
+
+
+.galeria-item:hover img {
+  transform: scale(1.05);
+}
+
